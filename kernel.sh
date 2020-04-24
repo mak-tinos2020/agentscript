@@ -8,4 +8,6 @@ fi
 
 lscp
 lsblk
-uname-r
+uname -r
+free -m
+iostat
