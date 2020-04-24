@@ -6,8 +6,11 @@ echo "you need root access"
 exit 1
 fi
 
-lscp
+lscpu
 lsblk
 uname -r
 free -m
 iostat
+cat /etc/os -release
+sar -u
+nproc
